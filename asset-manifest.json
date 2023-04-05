@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/login-react/static/css/main.f3421b3c.css",
+    "main.js": "/login-react/static/js/main.9f00523e.js",
+    "static/media/Montserrat-Light.ttf": "/login-react/static/media/Montserrat-Light.6fcc9263a21be961d246.ttf",
+    "index.html": "/login-react/index.html",
+    "main.f3421b3c.css.map": "/login-react/static/css/main.f3421b3c.css.map",
+    "main.9f00523e.js.map": "/login-react/static/js/main.9f00523e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3421b3c.css",
+    "static/js/main.9f00523e.js"
+  ]
+}
