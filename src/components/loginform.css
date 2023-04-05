@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'CustomFont';
+  }
+
+  @font-face {
+    font-family: 'CustomFont';
+    src: url('../fonts/Montserrat-Light.ttf');
+  }
+
+  .page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .cover {
+    background-color: white;
+    width:  30em;
+    height: 35em;
+    position:relative;
+    border-radius:1em;
+    box-shadow: 0 0.188em 1.550em rgb(100, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  input {
+    border: none;
+    background-color: rgb(229,226,226);
+    height:3em;
+    width: 250;
+    border-radius: 1em;
+    text-align: center;
+    padding: 0 3em;
+  }
+
+  input:focus {
+    outline-color: rgb(32, 177,255);
+  }
+
+  .login-btn {
+    width: 40%;
+    height: 3em;
+    background-color: rgb(32, 177,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+  }
+
+  .login-btn:hover { transform: scale(1.15);}
+
+  .text {
+    position: relative;
+    bottom: -2em ;
+  }
+
+  .reset-btn {
+    background-color: transparent;
+    border: 0;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 1.12rem;
+  }
+
+  
